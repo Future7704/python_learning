@@ -1,8 +1,3 @@
-number_list = [3, 6, 2, 8, 4, 10]
+from utils import find_max
 
-biggest_num = number_list[0]
-for num in number_list[1:]:
-    if num > biggest_num:
-        biggest_num = num
-
-print(biggest_num)
+print(find_max([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
